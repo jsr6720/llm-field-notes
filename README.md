@@ -18,7 +18,7 @@ Generally grouped by
 
 # template.md
 
-Stolen concept from `jekyll` just some lightweight font-matter.
+Stolen concept from [`jekyll`](http://jekyllrb.com/) just some lightweight [font-matter](https://frontmatter.codes).
 
 # Caveats
 

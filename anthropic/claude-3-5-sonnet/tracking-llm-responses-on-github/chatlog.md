@@ -1,10 +1,16 @@
 ---
 title: Tracking LLM Responses on GitHub
-date: 2025-02-09
-category: [brainstorming] 
-tags: [documentation]
+date: 2025-02-10T04:03:13.232Z
+category:
+    - brainstorming
+tags:
+    - documentation
 model: claude-3.5-sonnet
-url: https://claude.ai/chat/42027b3b-1532-4b58-a76d-88938a6de8b4 
+url: https://claude.ai/chat/42027b3b-1532-4b58-a76d-88938a6de8b4
+evaluation:
+    solved: true
+    notes: I mean, I already know AI is great to brainstorm with, its like watching myself think. Its not like I'm going to be able to google 'light-weight blogging like jekyll to keep track of AI generated content'
+draft: false
 ---
 
 J
@@ -237,3 +243,38 @@ Let me outline a README that captures what we've developed:
 README for LLM Field Notes
 Click to open document
 How's that for capturing the key points of our discussion? I tried to keep it focused on the essentials while maintaining the field notes theme we landed on.
+
+
+J
+I kinda want to give each response set a score or maybe pass fail? like did it solve something?
+
+Ah, adding an evaluation component! We could add a simple status field to the front matter. Here are a couple approaches:
+Simple Pass/Fail:
+yaml
+
+Copy
+---
+title: Tracking LLM Responses on GitHub
+date: 2025-02-08
+project: llm-behavior-patterns
+tags: [documentation, field-notes, github, methodology]
+source: anthropic-claude-3-sonnet-conversation-id-xyz123
+status: pass  # or fail
+---
+Or more nuanced scoring:
+yaml
+
+Copy
+---
+title: Tracking LLM Responses on GitHub
+date: 2025-02-08
+project: llm-behavior-patterns
+tags: [documentation, field-notes, github, methodology]
+source: anthropic-claude-3-sonnet-conversation-id-xyz123
+evaluation:
+  score: 4/5  # or could be percentage, letter grade, etc
+  solved: true  # boolean for whether it solved the core problem
+  notes: "Provided elegant solution but could have been more concise"
+---
+The evaluation field gives you flexibility to capture more context about how well the interaction went. Could be useful for tracking which models are better at certain types of tasks or seeing patterns in successful vs unsuccessful interactions.
+Want me to update the README to include this evaluation component?
