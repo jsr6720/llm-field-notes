@@ -2,7 +2,7 @@
 title: Tracking LLM Responses on GitHub
 date: 2025-02-09
 category: [brainstorming] 
-tags: [model, problem]
+tags: [documentation]
 model: claude-3.5-sonnet
 url: https://claude.ai/chat/42027b3b-1532-4b58-a76d-88938a6de8b4 
 ---

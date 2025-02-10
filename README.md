@@ -19,3 +19,9 @@ Generally grouped by
 # template.md
 
 Stolen concept from `jekyll` just some lightweight font-matter.
+
+# Caveats
+
+Right now I'm just copy/pasting whatever comes over in plain text. I'm not trying to preserve the UI experience, if there's something that catches my eye I might include it.
+
+All spelling mistakes my own.
